@@ -15,18 +15,12 @@ Creating the image
 Running docker image
 --------------------
 
-Start your image binding the external port 80:
+Start your image binding the external port 4000:
 
-	docker run -d -p 80:80 afterlogic/docker-aurora-files
+	docker run -d -p 4000:4000 afterlogic/docker-aurora-files
 
-and access the container via web browser at http://localhost/
+and access the container via web browser at http://localhost/:4000
 
-
-Alternately, you can use any other port available, e.g. 800:
-
-	docker run -d -p 800:80 afterlogic/docker-aurora-files
-
-and access the installation at http://localhost:800/
 
 
 Accessing admin interface
