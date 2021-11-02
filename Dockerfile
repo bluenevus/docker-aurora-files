@@ -54,6 +54,6 @@ RUN rm -rf /tmp/alwm
 
 VOLUME ["/var/www/html", "/var/log/httpd", "/var/lib/mysql", "/var/log/mysql", "/etc/apache2"]
 
-EXPOSE 80 3306
+EXPOSE 4000 3306
 
 CMD ["/usr/sbin/run-lamp.sh"]
